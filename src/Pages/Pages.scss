@@ -1,0 +1,115 @@
+$lightgreen: #535938;
+$darkgreen: #40473F;
+$orange: #D9442A;
+
+.home_bg{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient($lightgreen, $darkgreen);
+}
+#next_btn_holder{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.intro_txt{
+    color: #4B503C;
+    text-shadow:
+    -1px -1px 0 rgb(255, 255, 255),  
+     1px -1px 0 rgb(255, 255, 255),
+     -1px 1px 0 rgb(255, 255, 255),
+      1px 1px 0 rgb(255, 255, 255);
+      margin-bottom: 0px;
+      font-family: 'Oswald', sans-serif;
+}
+#its_friday{
+    margin: 0px !important;
+}
+#landing_wrapping{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35%;
+}
+#finally_wrapper{
+    display: flex;
+    #orange_placeholder{
+        width: 15px;
+        height: 30px;
+        background-color: $orange;
+        margin: 10px 10px 0px 10px;
+        }
+}
+#saturday{
+    color: white;
+    margin: 0px 0px 0px -1px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#Prizing{
+    width: 100%;
+    height: 100vh;
+    background: url('./../Assets/prizingBg.png') no-repeat center center;
+    background-size: cover;
+    .titleContainer{
+        width: auto;
+        position: absolute;
+        left: 0;
+        top: 0;
+        margin: 20vh 0px 0px 6vw;
+    }
+.blood_orange_h1{
+    color: white;
+    margin: 0px;
+    font-weight: 500;
+    
+}
+.Title2{
+    margin-top: -2vh;
+}
+.ROR{
+    margin-top: -1vh;
+}
+#next_btn_green{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 12%;
+}
+.columns_holder{ 
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+.shared_width{
+    color: white;
+    width: calc(100% / 2);
+    display: flex;
+    flex-direction: column;
+   align-items: flex-end;
+   padding-left: 6%;
+
+    .thin{
+        font-weight: 200;
+    }
+    .info_container{
+        width: 130px;
+        margin-top: 20px;
+    }
+}
+.left-content{
+    padding-left: 6vw;
+    padding-top: 10vh;
+    width: 34%;
+}
+.margin_zero{
+    margin: 0px;
+   
+}
+
+
+}
+

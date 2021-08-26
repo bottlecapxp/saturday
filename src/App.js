@@ -1,24 +1,22 @@
-import logo from './logo.svg';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import LandingPage from './Pages/Landing_page';
+import Video from './Pages/Video';
 import './App.css';
+import Prizing from './Pages/Prizing';
+import BloodOrange from './Pages/BloodOrange';
+import Quiz from './Pages/Quiz';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+        <Switch>
+            <Route path='/' exact strict component={LandingPage}/>
+            <Route path='/educational-video' exact strict component={Video}/>
+            <Route path='/prizing' exact strict component={Prizing}/>
+            <Route path='/blood-orange' exact strict component={BloodOrange}/>
+            <Route path='/Quiz' exact strict component={Quiz}/>
+        </Switch>
+    </Router>
   );
 }
 
