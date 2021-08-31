@@ -10,7 +10,7 @@ import './Pages.scss'
 
 const BloodOrange = (props) => {
   return(
-    <div id='Prizing'>
+    <div className='Prizing'>
         <div className='titleContainer'>
         <h1 className='blood_orange_h1'>BLOOD</h1>
         <h1 className='blood_orange_h1 Title2'>ORANGE</h1>
@@ -20,8 +20,6 @@ const BloodOrange = (props) => {
         <div id='next_btn_green'>
             <Next image={NextGreen} link='/quiz'/>
         </div>
-
-        {/* Three StackedColumns */}
 
 <div className='columns_holder'>
 
@@ -53,16 +51,8 @@ Blood Orange by Saturday is the sweet and juicy with a tangy zip and touch of fl
         <p className='margin_zero'>LICENSED PRODUCER</p>
         <p className='margin_zero thin'>WeedMD Rx Inc.</p>
     </div>
-
-</div>
-</div>
-
-
-
-
-
-
-
+            </div>
+        </div>
     </div>
    )
 

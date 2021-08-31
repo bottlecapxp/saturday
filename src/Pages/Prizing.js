@@ -10,7 +10,7 @@ import './Pages.scss'
 
 const Prizing = (props) => {
   return(
-    <div id='Prizing'>
+    <div className='Prizing'>
         <div className='titleContainer'>
         <h1 className='blood_orange_h1'>SWEET</h1>
         <h1 className='blood_orange_h1 Title2'>& SOUR</h1>
