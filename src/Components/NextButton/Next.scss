@@ -1,8 +1,15 @@
 .next_btn{
-    height: 60px;
-    width: 40px;
+    height: 30px;
+    width: auto;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
     margin: 10vh 5vw 0px 0px;
     appearance: none;
     -moz-appearance: none;
     -webkit-appearance: none;
+    z-index: 999;
     }
+#next_image{
+    width: 13px;
+}

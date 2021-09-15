@@ -1,6 +1,7 @@
 import React from 'react'
 import Next from '../Components/NextButton/Next'
 import NextGreen from '../Assets/next-green.png'
+import VapePen from '../Assets/vape-pen.svg'
 import './Pages.scss'
 
 /**
@@ -10,7 +11,7 @@ import './Pages.scss'
 
 const BloodOrange = (props) => {
   return(
-    <div className='Prizing'>
+    <div className='Prizing bloodOrangeBg'>
         <div className='titleContainer'>
         <h1 className='blood_orange_h1'>BLOOD</h1>
         <h1 className='blood_orange_h1 Title2'>ORANGE</h1>
@@ -18,7 +19,7 @@ const BloodOrange = (props) => {
         </div>
    
         <div id='next_btn_green'>
-            <Next image={NextGreen} link='/quiz'/>
+            <Next image={NextGreen} link='/instructions'/>
         </div>
 
 <div className='columns_holder'>
@@ -27,6 +28,9 @@ const BloodOrange = (props) => {
 <p style={{fontSize: '13px'}}>
 Blood Orange by Saturday is the sweet and juicy with a tangy zip and touch of floral pine. Enjoy a crisp twist on citrus.  
 </p>
+</div>
+<div>
+    <img id='vapePen' src={VapePen} alt='' />
 </div>
 
 <div className='shared_width'>

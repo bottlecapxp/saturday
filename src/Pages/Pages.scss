@@ -47,6 +47,10 @@ $orange: #D9442A;
     margin: 0px 0px 0px -1px;
     font-family: 'Oswald', sans-serif;
 }
+.bloodOrangeBg{
+    background: url('./../Assets/new-bg.jpg') no-repeat center center !important;
+    background-size: cover !important;
+}
 
 .Prizing{
     width: 100%;
@@ -59,7 +63,7 @@ $orange: #D9442A;
         position: absolute;
         left: 0;
         top: 0;
-        margin: 20vh 0px 0px 6vw;
+        margin: 23vh 0px 0px 6vw;
     }
 .blood_orange_h1{
     color: white;
@@ -92,6 +96,7 @@ $orange: #D9442A;
     flex-direction: column;
    align-items: flex-end;
    padding-left: 6%;
+   z-index: 99;
 
     .thin{
         font-weight: 200;
@@ -104,6 +109,7 @@ $orange: #D9442A;
 .left-content{
     padding-left: 6vw;
     padding-top: 10vh;
+    margin-top: 5vh;
     width: 34%;
 }
 .margin_zero{
@@ -194,4 +200,69 @@ label{
     height: 40px;
     margin-top: 7%;
 }
+}
+#vapePen{
+    width: 33%;
+    position: absolute;
+    z-index: 0;
+    left: 0;
+    margin-left: 33.33%;
+}
+#sourBag{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+#ball_layer, #guitar_layer{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('./../Assets/ball.svg') no-repeat center center;
+    background-size: contain;
+#guitar{
+    width: 90%;
+    position: absolute;
+    bottom: 0;
+    margin-left: -20%;
+}
+}
+
+.noOverflow{ 
+    overflow-y: hidden;
+}
+#instruction_context{
+    color: white;
+    width: 40%;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 30vh 5vw 0 0;
+
+}
+
+@media (min-height: 730px){
+    .Prizing{
+        width: 100%;
+        height: 100vh;
+        overflow-y: scroll;
+        background: url('./../Assets/prizingBg.png') no-repeat center center;
+        background-size: cover;
+        .titleContainer{
+            width: auto;
+            position: absolute;
+            left: 0;
+            top: 0;
+            margin: 20.5vh 0px 0px 6vw;
+        }
+    }
+    .left-content{
+        padding-left: 6vw;
+        padding-top: 10vh;
+        margin-top: 1vh !important;
+        width: 34%;
+    }
 }

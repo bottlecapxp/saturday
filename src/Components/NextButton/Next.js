@@ -12,15 +12,20 @@ const Next = (props) => {
     // Take two props - image and link
     const [background] = useState({
         style: { 
-            background: `url(${props.image}) no-repeat center center`,
-            backgroundSize: 'contain',
-            border: 'none'
+            backgroundColor: '#5E643E',
+            border: 'none', 
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center'
+            // background: `url(${props.image}) no-repeat center center`,
+            // backgroundSize: 'contain',
+           
         },
         link: ''
     })
 
   return(
-    <button onClick={()=>{history.push(props.link)}} style={background.style} className='next_btn'></button>
+    <button onClick={()=>{history.push(props.link)}} style={background.style} className='next_btn'>NEXT <img id='next_image' src={props.image} alt='' /></button>
    )
 
  }

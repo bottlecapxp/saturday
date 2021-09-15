@@ -1,6 +1,7 @@
 import React from 'react'
 import Next from '../Components/NextButton/Next'
 import NextGreen from '../Assets/next-green.png'
+import Sour from '../Assets/sour.svg'
 import './Pages.scss'
 
 /**
@@ -30,7 +31,9 @@ const Prizing = (props) => {
 Our Sweet & Sour Sativa Ready-to-Roll is made with milled whole flower, never shake or trim, packed with a sour punch and fruity citrus aromas.  
 </p>
 </div>
-
+<div>
+    <img id='sourBag' src={Sour} alt='' />
+</div>
 <div className='shared_width'>
     <div className='info_container'>
         <p className='margin_zero'>SATIVA</p>
