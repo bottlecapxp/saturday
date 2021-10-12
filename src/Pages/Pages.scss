@@ -58,6 +58,7 @@ $orange: #D9442A;
     overflow-y: scroll;
     background: url('./../Assets/prizingBg.png') no-repeat center center;
     background-size: cover;
+    
     .titleContainer{
         width: auto;
         position: absolute;
@@ -176,6 +177,7 @@ width: 100%;
     flex-direction: column;
     align-items: center;
     width: 100%;
+    margin-top: 20vh;
 input{ 
     width: 75%;
     height: 20px;

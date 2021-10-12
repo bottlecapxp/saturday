@@ -25,7 +25,7 @@ const Next = (props) => {
     })
 
   return(
-    <button onClick={()=>{history.push(props.link)}} style={background.style} className='next_btn'>NEXT <img id='next_image' src={props.image} alt='' /></button>
+    <button onClick={()=>{history.push(props.link)}} style={background.style} className={`next_btn ${props.class}`}>NEXT <img id='next_image' src={props.image} alt='' /></button>
    )
 
  }

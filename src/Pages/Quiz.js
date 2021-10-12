@@ -39,7 +39,7 @@ const Quiz = (props) => {
         if (completed.length >= questionaire_limit) {
             localStorage.setItem('points', points)
             setTimeout(()=>{
-                history.push('/data-capture')
+                history.push('/')
             }, 500)
            
         } else {

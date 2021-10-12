@@ -19,7 +19,7 @@ const BloodOrange = (props) => {
         </div>
    
         <div id='next_btn_green'>
-            <Next image={NextGreen} link='/instructions'/>
+            <Next image={NextGreen} link='/quiz'/>
         </div>
 
 <div className='columns_holder'>

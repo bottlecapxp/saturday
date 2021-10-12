@@ -19,7 +19,7 @@ const Prizing = (props) => {
         </div>
    
         <div id='next_btn_green'>
-            <Next image={NextGreen} link='/blood-orange'/>
+            <Next image={NextGreen} link='/instructions'/>
         </div>
 
         {/* Three StackedColumns */}

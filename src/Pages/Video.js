@@ -10,8 +10,17 @@ import VideoMp4 from './../Assets/videos/Saturday.mp4'
 const Video = (props) => {
   const history = useHistory()
   useEffect(()=>{
+
+    // const randNum = Math.floor(Math.random() * 2)
+    // console.log(randNum)
     setTimeout(()=>{
-      history.push('/prizing')
+      history.push('/data-capture')
+    //   if(randNum === 1){
+    //     history.push('/prizing')
+    //   }else if(randNum === 0){
+    //     history.push('/blood-orange')
+    //   }
+
     },9000)
   }, [])
   return(

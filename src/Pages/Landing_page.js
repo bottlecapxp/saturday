@@ -12,7 +12,7 @@ const LandingPage = (props) => {
   return (
     <div className='home_bg'>
       <div id='next_btn_holder'>
-        <Next image={ButtonImage} link='/educational-video' />
+        <Next image={ButtonImage} class='orange-btn' link='/educational-video' />
       </div>
       <div id='landing_wrapping'>
         <div>
