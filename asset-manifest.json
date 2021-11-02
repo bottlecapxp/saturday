@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/saturday/static/css/main.3342c8f7.chunk.css",
-    "main.js": "/saturday/static/js/main.a6ae9a23.chunk.js",
-    "main.js.map": "/saturday/static/js/main.a6ae9a23.chunk.js.map",
+    "main.css": "/saturday/static/css/main.75873a45.chunk.css",
+    "main.js": "/saturday/static/js/main.6f74cfb1.chunk.js",
+    "main.js.map": "/saturday/static/js/main.6f74cfb1.chunk.js.map",
     "runtime-main.js": "/saturday/static/js/runtime-main.4fff5ce5.js",
     "runtime-main.js.map": "/saturday/static/js/runtime-main.4fff5ce5.js.map",
     "static/js/2.e60e23c3.chunk.js": "/saturday/static/js/2.e60e23c3.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.5b560909.chunk.js": "/saturday/static/js/3.5b560909.chunk.js",
     "static/js/3.5b560909.chunk.js.map": "/saturday/static/js/3.5b560909.chunk.js.map",
     "index.html": "/saturday/index.html",
-    "static/css/main.3342c8f7.chunk.css.map": "/saturday/static/css/main.3342c8f7.chunk.css.map",
+    "static/css/main.75873a45.chunk.css.map": "/saturday/static/css/main.75873a45.chunk.css.map",
     "static/js/2.e60e23c3.chunk.js.LICENSE.txt": "/saturday/static/js/2.e60e23c3.chunk.js.LICENSE.txt",
     "static/media/Saturday.1909c810.mp4": "/saturday/static/media/Saturday.1909c810.mp4",
     "static/media/Pages.scss": "/saturday/static/media/prizingBg.87f69a67.png",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.4fff5ce5.js",
     "static/js/2.e60e23c3.chunk.js",
-    "static/css/main.3342c8f7.chunk.css",
-    "static/js/main.a6ae9a23.chunk.js"
+    "static/css/main.75873a45.chunk.css",
+    "static/js/main.6f74cfb1.chunk.js"
   ]
 }
